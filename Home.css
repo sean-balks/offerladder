@@ -152,7 +152,7 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 20px));
+  grid-template-columns: repeat(2, calc(50.0% - 20px));
   min-height: 657px;
   grid-gap: 30px;
 }
@@ -1932,4 +1932,35 @@
   .u-section-11 .u-text-1 {
     font-size: 3.75rem;
   }
+}
+
+.portfolio-section {
+  background-color: var(--color-foreground-secondary);
+  padding-bottom: 50px;
+}
+
+#portfolio {
+  margin-bottom: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.all-logos {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 10px auto;
+}
+
+.logo {
+    max-width: 140px;
+    width: 200px;
+    height: auto;
+    padding: 7px;
 }
